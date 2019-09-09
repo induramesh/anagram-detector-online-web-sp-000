@@ -7,6 +7,6 @@ class Anagram
     @word = new_word
   end 
   
-  def match(arr)
-    arr.map
+  def self.match(arr)
+    init = self.split("").sort
 end 
