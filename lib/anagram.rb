@@ -8,5 +8,5 @@ class Anagram
   end 
   
   def self.match(arr)
-    init = self.split("").sort
+    .select { |w| w.split("").sort == self.split("").sort}
 end 
