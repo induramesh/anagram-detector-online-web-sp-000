@@ -7,7 +7,7 @@ class Anagram
     @word = new_word
   end 
   
-  def self.match(arr)
+  def match(arr)
     arr.select { |w| w.split("").sort == self.split("").sort}
   end
   
